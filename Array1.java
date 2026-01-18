@@ -10,9 +10,8 @@ public class Array1{
             System.out.println(values[i]);
         }
 
-        System.out.println("enter a number from 1 - 10: ");
+        System.out.println("enter a number from the list above: ");
         int user = sc.nextInt();
-        
         for (int i = 0; i < values.length; i++){
             if (values [i] == user){
                 System.out.println(i +  1);
